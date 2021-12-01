@@ -19,14 +19,41 @@
     height: 1000px;
     width: auto;
 }
+.bloc3{
+    width: auto;
+    height:  1000px;
+}
+.bloc4{
+    background: url("../assets/images/8.-Sunrise.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1000px;
+    width: auto;
+}
 .bloc1 div{
     height: 50%;
 }
 .carre{
     height: 300px;
 }
+.carre:hover{
+    transform: scaleY(1.05);
+    box-shadow: 10px 10px yellow;
+    
+}
 .trailer{
     text-decoration: none;
     color: white;
     height: 300px;
+}
+.carou{
+    height: 1000px;
+    width: auto;
+}
+
+.card p, h5, li{
+    color: black;
+}
+.card li{
+    padding-top: 8px;
 }
